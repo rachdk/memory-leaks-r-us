@@ -26,13 +26,13 @@
 using namespace std;
 
 // forward declarations
-void test1();
-void test2();
-void test3();
+//void test1();
+//void test2();
+//void test3();
 
 int main() {
   cout << "Starting memory-leaks-r-us...." << endl;
-//  test1();
+  test1();
 //  test2();
 //  test3();
   cout << "Successfully completed memory-leaks-r-us...." << endl;
